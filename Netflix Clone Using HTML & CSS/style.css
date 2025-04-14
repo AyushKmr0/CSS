@@ -1,0 +1,579 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,900;1,900&family=Open+Sans:ital@0;1&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: "Poppins", sans-serif; */
+    /* font-family: "Open Sans", sans-serif; */
+    box-sizing: border-box;
+}
+
+html {
+    text-size-adjust: 100%;
+}
+
+body {
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/Images/BG-img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1500px, 100vw);
+    height: 75vh;
+    position: relative;
+
+}
+
+.main .box {
+    height: 75vh;
+    width: 100%;
+    opacity: 0.6;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 60vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    width: 170px;
+    position: relative;
+    z-index: 100;
+}
+
+nav button {
+    position: relative;
+    z-index: 100;
+}
+
+.main input {
+    padding: 15px 12px;
+    font-size: 20px;
+    width: 420px;
+}
+
+.contain-btn {
+    border-radius: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    z-index: 100;
+    cursor: pointer;
+}
+
+.lang-icon svg {
+    position: absolute;
+    color: white;
+    width: 18px;
+    height: 17px;
+    top: 7px;
+    left: 10px;
+}
+
+.nav-select {
+    font-size: 18px;
+    padding: 5px 37px;
+    border: 1px solid rgba(255, 255, 255, 0.534);
+    color: white;
+    background-color: transparent;
+    appearance: none;
+    border-radius: 4px;
+    font-weight: 400;
+    cursor: pointer;
+}
+
+select option {
+    border: 2px solid black;
+    padding: 5px;
+    background-color: white;
+    color: black;
+}
+
+option {
+    font-weight: 400;
+    color: black;
+}
+
+option :hover {
+    color: white;
+}
+
+.down-lang-arrow svg {
+    position: relative;
+    color: white;
+    right: 32px;
+    top: 1px;
+}
+
+.btn-SI {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.btn-SI button {
+    width: 80px;
+    height: 32px;
+    border-radius: 4px;
+    border: none;
+    font-weight: 600;
+    background-color: rgba(255, 0, 0, 0.926);
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+
+.hero {
+    font-family: "Open Sans", sans-serif;
+    height: calc(100% - 100px);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 23px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.email-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+}
+
+.email-form input {
+    background-color: transparent;
+    border-radius: 4px;
+    border: 1px solid rgba(255, 255, 255, 0.534);
+    color: white;
+    box-sizing: border-box;
+    padding: 14px;
+}
+
+
+.btn-GS button {
+    font-size: 25px;
+    padding: 12px 20px;
+    background-color: rgba(255, 0, 0, 0.926);
+    color: white;
+    border-radius: 4px;
+    border: none;
+    font-weight: bold;
+}
+
+.btn-GS svg {
+    width: 30px;
+    height: 25px;
+    position: relative;
+    right: auto;
+    top: 0.3rem;
+    background-color: none;
+}
+
+.btn-red button:hover,
+.btn-GS button:hover {
+    background-color: rgba(255, 0, 0, 0.718);
+}
+
+.separation {
+    height: 10px;
+    width: 100vw;
+    background-color: rgb(35, 35, 35);
+}
+
+.sec-first {
+    width: 100%;
+    height: 100%;
+    margin: auto;
+    padding: 70px;
+    box-sizing: border-box;
+}
+
+.first-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+    max-width: 61vw;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: auto;
+}
+
+.first-box-text {
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+
+}
+
+.first-box-text :nth-child(1) {
+    font-size: 55px;
+    font-weight: bolder;
+}
+
+.first-box-text :nth-child(2) {
+    font-size: 27px;
+    font-weight: 600;
+    padding-top: 15px;
+}
+
+.first-img {
+    position: relative;
+}
+
+.first-img>img {
+    width: 555px;
+    position: relative;
+    z-index: 10;
+}
+
+.first-img>video {
+    position: absolute;
+    width: 405px;
+    top: 90px;
+    right: 75px;
+}
+
+.third-img-sec>video {
+    position: absolute;
+    width: 62%;
+    top: 55px;
+    right: 110px;
+}
+
+.faq {
+    min-height: auto;
+    margin: 4.4rem;
+}
+
+.faq-big-box {
+    max-width: 61vw;
+    margin: 60px auto;
+    margin-bottom: 30px;
+}
+
+.faq h2 {
+    color: white;
+    font-size: 56px;
+    font-weight: bolder;
+    text-align: center;
+    margin: 28px auto;
+}
+
+.faqbox {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #2d2d2d;
+    margin: 10px auto;
+    padding: 46px 25px;
+    height: 80px;
+}
+
+.faqbox>span {
+    color: white;
+    font-size: 26px;
+}
+
+.faqbox>svg {
+    width: 50px;
+    height: 50px;
+}
+
+.faqbox:hover {
+    background-color: #414141;
+    transition: all 0.2s cubic-bezier(0.89, 0.52, 0, 0.62);
+}
+
+.emailbox-2 h3 {
+    color: white;
+    text-align: center;
+    padding: 30px;
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.emailbox-2>div>input {
+    width: 20vw;
+    padding: 18px;
+}
+
+footer {
+    max-width: 64vw;
+    margin: 3rem auto;
+}
+
+.footer-container {
+    min-height: auto;
+    padding: 2rem;
+}
+
+footer span {
+    color: rgba(255, 255, 255, 0.769);
+    padding: 10px 0;
+    font-size: 18px;
+}
+
+.footer-sec {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 20px auto;
+    /* margin-bottom: 10px; */
+    font-size: 16px;
+}
+
+.footer-item {
+    display: flex;
+    flex-direction: column;
+}
+
+.footer-item>a {
+    text-decoration: none;
+    color: rgba(255, 255, 255, 0.769);
+    padding: 8px 0;
+}
+
+.footer-select {
+    font-size: 18px;
+    padding: 5px 37px;
+    border: 1px solid rgba(255, 255, 255, 0.534);
+    color: white;
+    background-color: transparent;
+    appearance: none;
+    border-radius: 4px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.footer-lang-btn {
+    justify-content: flex-start;
+}
+
+.netflix-india {
+    padding: 25px 0;
+}
+
+.netflix-india>span {
+    color: rgba(255, 255, 255, 0.769);
+    font-size: 14px;
+
+}
+
+
+/* @media screen and (max-width: 768px) {
+    nav img {
+        width: 130px;
+    }
+
+    .nav-buttons {
+        width: 50%;
+    }
+
+    .btn-SI button {
+        width: 70px;
+        font-size: 14px;
+    }
+} */
+
+/* @media screen and (max-width: 576px) {
+    nav img {
+        width: 110px;
+    }
+
+    .nav-buttons {
+        width: 70%;
+    }
+
+    .btn-SI button {
+        width: 60px;
+        font-size: 12px;
+    }
+} */
+
+@media screen and (max-width: 1280px) {
+    nav {
+        max-width: 90vw;
+        justify-content: space-between;
+    }
+
+}
+
+@media screen and (max-width: 1040px) {
+    .main , .main .box {
+        height: 62vh;
+    }
+
+    nav img {
+        width: 120px;
+    }
+
+    .faq h2,
+    .hero> :nth-child(1) {
+        font-size: 30px;
+    }
+
+    .emailbox-2 h3,
+    .hero> :nth-child(3),
+    .hero> :nth-child(2) {
+        font-size: 18px;
+    }
+
+    .emailbox-2>div>input,
+    .email-form input {
+        width: 50vw;
+    }
+
+    .btn-GS button {
+        font-size: 25px;
+    }
+
+    .faqbox {
+        padding: 10px 25px;
+        height: 70px;
+    }
+
+    .faqbox>span {
+        font-size: 20px;
+    }
+
+    .faqbox>svg {
+        width: 26px;
+    }
+
+    .footer-sec {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media screen and (max-width: 720px) {
+    .emailbox-2>div>input,
+    .email-form {
+        flex-wrap: wrap;
+    }
+}
+
+@media screen and (max-width: 1300px) {
+    .container {
+        flex-wrap: wrap;
+    }
+
+    .first-box-text {
+        align-items: center;
+    }
+
+    .first-box-text :nth-child(1) {
+        font-size: 40px;
+        transition: all 255ms linear;
+    }
+
+    .first-box-text :nth-child(2) {
+        font-size: 22px;
+    }
+
+    .faq {
+        margin: 40px 20px;
+    }
+
+    .faq-big-box {
+        max-width: 95vw;
+    }
+}
+
+@media screen and (max-width: 700px) {
+    .first-box-text :nth-child(1) {
+        transition: all 255ms linear;
+        font-size: 30px;
+    }
+
+    .first-box-text :nth-child(2) {
+        transition: all 255ms linear;
+        font-size: 18px;
+    }
+
+    .first-img>img {
+        transition: all 255ms linear;
+        width: 70vw;
+    }
+
+    .first-img>video {
+        transition: all 255ms linear;
+        width: 52vw;
+        top: 10vw;
+        right: 10vw;
+    }
+
+    .third-img-sec>video {
+        transition: all 255ms linear;
+        width: 44vw;
+        top: 6vw;
+        right: 14vw;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    nav img {
+        transition: all 255ms linear;
+        width: 90px;
+    }
+    
+    .first-box-text :nth-child(1) {
+        transition: all 255ms linear;
+        font-size: 22px;
+    }
+
+    .first-box-text :nth-child(2) {
+        transition: all 255ms linear;
+        font-size: 14px;
+    }
+
+    .emailbox-2>div>input,
+    .email-form input {
+        width: 80vw;
+    }
+
+    
+    .nav-select {
+        transition: all 255ms linear;
+        padding: 5px 0;
+        position: relative;
+        color: transparent;
+    }
+}

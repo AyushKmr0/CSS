@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Float & Clear</title>
+    <style>
+        .cards {
+            border: 2px solid black;
+            display: flow-root;
+        }
+        img {
+            float: left;
+            /* float: right; */
+        }
+        .card {
+            border: 2px solid red;
+        }
+        .card:nth-child(3) {
+            background-color: aqua;
+            /* clear: right; */
+            /* clear: left; */
+            clear: both;
+        }
+    </style>
+</head>
+<body>
+    <div class="cards">
+        <img src="https://static.vecteezy.com/system/resources/thumbnails/022/385/025/small/a-cute-surprised-black-haired-anime-girl-under-the-blooming-sakura-ai-generated-photo.jpg" alt="" width="230">
+        <div class="card">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa iusto ratione inventore. Optio debitis nesciunt eius unde reiciendis porro, sint repellendus laborum rerum id a vitae labore impedit tempora, fuga aspernatur praesentium. Pariatur, quam.
+        </div>
+        <div class="card">
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Culpa quae aliquam quod eum qui nesciunt, recusandae corporis, aut tempore, ratione laboriosam! Mollitia, velit soluta impedit fuga sunt exercitationem, sed iusto cum cumque repellendus omnis possimus maxime aliquam! Vero cumque nam hic inventore perferendis aliquid labore quo et mollitia in, assumenda, nulla unde facilis accusamus ipsum dolor. Ratione quidem sunt optio quis totam, illo reprehenderit autem ipsam tempora culpa ex mollitia error architecto magnam ducimus eligendi corrupti, fuga labore soluta officiis itaque dolorem exercitationem! Provident ex soluta nihil voluptatum nulla perspiciatis sequi modi id, suscipit incidunt, quibusdam officiis corporis. Totam excepturi laudantium, magnam ex repellat quis exercitationem tempore. Accusantium illum voluptate quibusdam velit odit soluta nihil dolor repellat eum ab iusto eveniet optio error est nulla explicabo cupiditate, placeat asperiores! Tenetur eum error minima repellendus iste, id unde dolorem, molestias officiis placeat ut quae quis excepturi facere. Cum quod, praesentium aliquam earum sint est dolorum quia blanditiis eos tenetur nam nulla eligendi quibusdam, id assumenda enim laudantium ad impedit? Qui, dolorum animi atque voluptatem unde sunt voluptatum iste nam eum excepturi fugiat! Repellendus quia temporibus iure maiores. Laborum doloribus laboriosam, voluptatibus tenetur, explicabo ratione numquam placeat quod sapiente obcaecati totam corrupti labore ipsum cum? Nisi, iste! Neque accusantium ipsum iure aperiam dolor? Dolor provident voluptas atque numquam culpa fugiat, qui consequuntur! Commodi enim vel quos repellat illum culpa, obcaecati adipisci ullam ratione cupiditate inventore.
+        </div>
+        <div class="card">Card 3</div>
+    </div>
+</body>
+</html>

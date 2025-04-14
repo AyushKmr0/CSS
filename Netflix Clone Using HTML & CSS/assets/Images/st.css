@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css2?family=Noto+Sans:ital,wght@0,900;1,900&family=Open+Sans:ital@0;1&family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    /* font-family: "Poppins", sans-serif; */
+    /* font-family: "Open Sans", sans-serif; */
+    font-family: "Helvetica Neue", "Segoe UI", Roboto, Ubuntu, sans-serif;
+    box-sizing: border-box;
+}
+
+html {
+    text-size-adjust: 100%;
+}
+
+body {
+    background-color: black;
+}
+
+.main {
+    background-image: url(assets/Images/BG-img.jpg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: max(1500px, 100vw);
+    height: 75vh;
+    position: relative;
+
+}
+
+.main .box {
+    height: 75vh;
+    width: 100%;
+    opacity: 0.6;
+    background-color: black;
+    position: absolute;
+    top: 0;
+}
+
+nav {
+    max-width: 63vw;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100px;
+}
+
+nav img {
+    width: 170px;
+    position: relative;
+    z-index: 100;
+}
+
+nav button {
+    position: relative;
+    z-index: 100;
+}
+
+.hero {
+    font-family: "Open Sans", sans-serif;
+    height: calc(100% - 100px);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    gap: 20px;
+    padding: 0 30px;
+}
+
+.hero> :nth-child(1) {
+    font-family: "Noto Sans", sans-serif;
+    font-size: 50px;
+    font-weight: 900;
+    text-align: center;
+}
+
+.hero> :nth-child(2) {
+    font-size: 25px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.hero> :nth-child(3) {
+    font-size: 20px;
+    font-weight: 400;
+    text-align: center;
+}
+
+.separation {
+    height: 10px;
+    width: 100%;
+    background-color: rgb(35, 35, 35);
+}
+
+.btn, .main input {
+    padding: 7px 20px;
+    font-weight: 500;
+    background-color: transparent;
+    color: white;
+    border: 1px solid rgb(113, 113, 113);
+    border-radius: 4px;
+    font-size: 1rem;
+}
+
+.btn-red {
+    background-color: rgba(255, 0, 0, 0.882);
+    border: none;
+    font-weight: bold;
+}
+
+.btn-nav {
+    height: 60px;
+    width: 25%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn-GS {
+    font-size: 25px;
+    padding: 10px 30px;
+}
+
+.email-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.main input {
+    padding: 15px 12px;
+    font-size: 20px;
+    width: 420px;
+}
+ 
+/* .btn-nav> :nth-child(1) {
+    width: 145px;
+    font-size: 16px; 
+}*/
+
+.lang-box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 23px;
+    background-color: red;
+}
+
+.lang-icon svg, .down-arrow svg {
+    box-sizing: border-box;
+    position: absolute;
+    width: 2rem;
+    height: 1.2rem;
+    left: 0.75rem;
+    top: 0.5rem;
+}
+
+.down-arrow svg{
+    left: 6rem;
+    top: 0.6rem;
+}
